@@ -1,7 +1,0 @@
-/main/client.go
-/main/main.go
-/main/server.go
-/RPC/client.go
-/RPC/MyJsonCodec.go
-/RPC/server.go
-/go.mod
