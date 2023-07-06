@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"encoding/json"
 	"errors"
-	"fmt"
 	"io"
 	"log"
 	"time"
@@ -94,8 +93,4 @@ func (c *MyJsonCodec) Write(r *Header, body any) (err error) {
 
 func (c *MyJsonCodec) Close() error {
 	return c.rwc.Close() // 关闭读写接口
-}
-
-func test() {
-	fmt.Println("test")
 }
